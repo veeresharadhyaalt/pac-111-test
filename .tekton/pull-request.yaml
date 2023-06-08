@@ -75,6 +75,7 @@ spec:
               workingDir: $(workspaces.source.path)
               script: |
                 echo "After adding annotation"
+                echo "change something"
                 exit 0
   workspaces:
   - name: source
