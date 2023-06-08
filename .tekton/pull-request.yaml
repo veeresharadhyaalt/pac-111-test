@@ -76,6 +76,7 @@ spec:
               script: |
                 echo "After adding annotation"
                 echo "change something"
+                echo "done"
                 exit 0
   workspaces:
   - name: source
