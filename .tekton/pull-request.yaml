@@ -5,7 +5,7 @@ metadata:
   name: pac-111-test-pull-request
   annotations:
     pipelinesascode.tekton.dev/on-cel-expression: |
-      source_url == "https://github.com/VeereshAradhya/pac-111-test"
+      source_url == "https://github.com/veeresharadhyaalt/pac-111-test"
     # The event we are targeting as seen from the webhook payload
     # this can be an array too, i.e: [pull_request, push]
     pipelinesascode.tekton.dev/on-event: "[pull_request]"
